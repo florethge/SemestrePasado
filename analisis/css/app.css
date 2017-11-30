@@ -1,0 +1,103 @@
+
+h1{font-size: 50;color: #000000; text-align: center; border-style: groove; border-bottom-color: #6495ED; border-top-color: #6495ED; border-right-color: #6495ED;border-left-color: #6495ED;}
+.Floreth { font-size: 20px;font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; color: #000000; margin-left: 100px; margin-right: 100px;}
+.Que {font-size: 20px;font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; color: #000000; margin-left: 100px; font-weight: bolder;}
+.Marla {font-size: 20;color: #00000; font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;}
+.Sub {font-size: 20px;font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; color: #000000; margin-left: 10px; font-weight: bolder;}</style>
+
+
+
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #85C1E9;
+    float: left;
+    width: 180px;
+    background-color: #FFFFFF;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 250px;
+    height: 280px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.container {
+  max-width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.container div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+}
+
+.next {
+  right: 5px;
+}
+
+.prev {
+  left: 5px;
+}
